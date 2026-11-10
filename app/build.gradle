@@ -1,0 +1,46 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    // NOTE: Only uncomment the line below if you have a "google-services.json" file inside your app/ folder
+    // id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.adhyaapan.lord_buddha_kawasoti'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.adhyaapan.lord_buddha_kawasoti"
+        minSdk 21
+        targetSdk 34
+        versionCode 9
+        versionName "2.7"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    // Core Android UI
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core-ktx:1.19.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Firebase Messaging (Found in your Manifest)
+    implementation 'com.google.firebase:firebase-messaging:23.4.1'
+
+    // QR Code Scanner (Found in your Manifest for QrLogin)
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+}

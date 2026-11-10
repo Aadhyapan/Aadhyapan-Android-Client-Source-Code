@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588210531931",
+    "project_id": "lordbuddhakawasoti",
+    "storage_bucket": "lordbuddhakawasoti.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588210531931:android:39d9a3ba790a53bc7c597e",
+        "android_client_info": {
+          "package_name": "com.adhyaapan.lord_buddha_kawasoti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT-ntbs4u26Z-BFz9ddW8snkFBOiNV2-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

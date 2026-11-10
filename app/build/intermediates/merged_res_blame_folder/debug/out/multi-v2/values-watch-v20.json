@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.adhyaapan.lord_buddha_kawasoti.app-mergeDebugResources-34:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\RAMAN\\.gradle\\caches\\transforms-3\\43c623acd127f7ac6da0ecc92ac2ccec\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.adhyaapan.lord_buddha_kawasoti.app-mergeDebugResources-36:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\RAMAN\\.gradle\\caches\\transforms-4\\c84aac67dc820e2a66b2883906d585fa\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<style>
+body{
+  animation-name: bodyAnimation;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+
+#logo {
+  position: absolute;
+  animation: fadeIn ease 4s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+#footerLogo {
+  position: absolute;
+  animation: footerLogoAnimation 1s ;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+#footer {
+  position: absolute;
+  animation: fadeIn ease 4s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes bodyAnimation {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+@keyframes fadeIn {
+from {opacity: 0%;}
+  to {opacity: 100%; visibility:visible}
+}
+
+@keyframes footerLogoAnimation {
+  from {left: 0vh;}
+  to {left: 30vw;}
+}
+
+
+
+
+</style>
+</head>
+<body>
+<div id="logo" style="margin-top:15vh;left:25vw"><img style="max-width:50vw; max-height:50vh" src="logo.png" alt=""></div>
+<div id="footer"  style="margin-top:90vh;margin-left:35vw; text-align:center;"><small>Powered By</small></br><strong style="color:blue;"><a href="http://emsnepal.com">EMS NEPAL</a></strong></div>
+
+
+</body>
+</html>
