@@ -1,0 +1,20 @@
+# Local / IDE files
+local.properties
+.idea/
+*.iml
+.gradle/
+
+# Build output
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing and secrets
+*.jks
+*.keystore
+keystore.properties
+
+# OS files
+.DS_Store
