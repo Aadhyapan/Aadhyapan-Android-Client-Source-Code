@@ -30,27 +30,27 @@ Want to try the app without building it? Download the latest APK from **[aadhyap
 
 ## Features
 
-1. [Feature one]
-2. [Feature two]
-3. [Feature three]
-4. [Feature four]
-5. [Feature five]
+1. OTP Login system.
+2. Different login page for Admin (school), teacher and student.
+3. Notifications can be created by admins.
+4. Good UI.
+5. Widely used by schools.
 
 ## Tech Stack
 
-- **Language:** [Kotlin / Java]
+- **Language:** Kotlin / Java
 - **Build system:** Gradle
-- **UI:** [XML layouts / Jetpack Compose]
-- **Architecture:** [MVVM / MVP / other]
-- **Networking:** [Retrofit / Volley / OkHttp / other]
-- **Min SDK:** [e.g. 21]
+- **UI:** XML layouts / Jetpack Compose
+- **Architecture:** MVVM / MVP / other
+- **Networking:** Retrofit / Volley / OkHttp / other
+- **Min SDK:** 21
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Android Studio](https://developer.android.com/studio) (latest stable recommended)
-- JDK [11 / 17]
+- Android Studio (https://developer.android.com/studio) (latest stable recommended)
+- JDK 11 / 17
 - An Android device or emulator
 
 ### Build from source
